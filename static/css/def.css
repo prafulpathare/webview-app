@@ -4,3 +4,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 }
+
+a {
+    line-height: inherit;
+    display: inline-block;
+    margin: 0 5px;
+}
