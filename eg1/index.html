@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,52 @@
     <link rel="stylesheet" href="../static/css/def.css">
     <link rel="stylesheet" href="../static/css/home.css">
     <style>
-        
+
     </style>
 </head>
+
 <body>
-    
-<div class="container" >
-    <div class="row"  style="background-color: #3b5998;">
-        <div class="col-12">
-            <input type="text" name="q" id="searchBar" placeholder="Search..." style="border:1px solid#ccc;padding: 0 10px;width: calc(100% - 10px); margin: 10px 5px;border-radius: 5px;line-height: 35px;">
+
+    <div id="side-nav-cntr">
+        <img id="sidebar-cancel-btn"
+            src="https://cdn.icon-icons.com/icons2/2024/PNG/512/cancel_music_close_cross_icon_123879.png" alt=""
+            srcset="">
+
+        <div class="nav-header">
+            <h1>Praful Pathare</h1>
+        </div>
+
+        <div id="main-nav-cntr">
+            <a href="./index.html">Home</a>
+            <a href="./profile.html">My Profile</a>
+            <a href="./settings.html">Settings</a>
+            <a style="color: red;font-weight: bold;" href="./login.html">Log Out</a>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12" style="text-align: center;line-height: 100vh;">
-            <img src="https://eshoppingnepal.com/photos/nproduct.png" alt="" srcset="" style=" width: 70%; max-width: 320px;">
+    <div class="fluid-container">
+        <div style="display: flex;">
+
+            <img id="sidebar-btn" src="https://pics.freeicons.io/uploads/icons/png/15211315791553239378-512.png" style="height: 45px;padding:10px 3px 0 5px;" alt="" srcset="">
+
+            <input type="text" name="q" id="searchBar" placeholder="Search..."
+                style="flex:11; border:1px solid#ccc;padding: 0 10px; margin: 10px 5px;border-radius: 5px;line-height: 35px;">
+
+        </div>
+
+        <div class="row">
+            <div class="col-12" style="text-align: center;line-height: 100vh;">
+                <img src="https://eshoppingnepal.com/photos/nproduct.png" alt="" srcset=""
+                    style=" width: 70%; max-width: 320px;">
+            </div>
         </div>
     </div>
-</div>
-    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="../static/js/def.js"></script>
+
 </body>
+
 </html>
